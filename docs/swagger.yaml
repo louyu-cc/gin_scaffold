@@ -17,20 +17,16 @@ definitions:
     type: object
   middleware.Response:
     properties:
-      data:
-        type: object
+      data: {}
       errmsg:
         type: string
       errno:
         type: integer
-      stack:
-        type: object
-      trace_id:
-        type: object
+      stack: {}
+      trace_id: {}
     type: object
 info:
   contact: {}
-  license: {}
 paths:
   /demo/bind:
     post:

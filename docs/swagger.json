@@ -1,8 +1,7 @@
 {
     "swagger": "2.0",
     "info": {
-        "contact": {},
-        "license": {}
+        "contact": {}
     },
     "paths": {
         "/demo/bind": {
@@ -79,21 +78,15 @@
         "middleware.Response": {
             "type": "object",
             "properties": {
-                "data": {
-                    "type": "object"
-                },
+                "data": {},
                 "errmsg": {
                     "type": "string"
                 },
                 "errno": {
                     "type": "integer"
                 },
-                "stack": {
-                    "type": "object"
-                },
-                "trace_id": {
-                    "type": "object"
-                }
+                "stack": {},
+                "trace_id": {}
             }
         }
     }
